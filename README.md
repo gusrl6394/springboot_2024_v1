@@ -9,6 +9,7 @@ Gradle 8.6
 Spring boot 3.2.3
 Spring security 6.2.2
 jjwt 0.12.3
+Querydsl 5.0.0
 Mariadb 10.11.2
 ```
 
