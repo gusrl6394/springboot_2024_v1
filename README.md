@@ -9,9 +9,11 @@ Mariadb 10.11.2
 ```
 
 개발자 툴
+```
 Intellij IDEA
 HeidiSQL 11.3.0.6295
 PostMan
+```
 
 참고사이트
 1) https://www.youtube.com/@xxxjjhhh
@@ -22,6 +24,7 @@ PostMan
    - 아래 java 파일을 제외한 모든 파일
      
 2) JPA + QueryDsl
+```
    - QuerydslConfig.java
    - MemberStatus.java
    - RoleType.java
@@ -32,11 +35,13 @@ PostMan
    - MemberEntity.java
    - MemberRepository.java
    - MemberService.java
+```
   * 엔티티 클래스를 Q클래스를 만들어야 하므로 gardle 를 통해 clean -> compile java 거쳐야됨
   * 스프링 부트 시작시 엔티티 클래스에 데이터베이스는 자동으로 생성(spring.jpa.hibernate.ddl-auto 옵션 참고)
          
 
 패키지 트리
+```
 +---main
 |   +---java
 |   |   \---com
@@ -101,6 +106,7 @@ PostMan
             \---example
                 \---spring
                         ApplicationTests.java
+```
 
 결과물
 
