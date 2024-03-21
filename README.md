@@ -37,7 +37,7 @@ PostMan
    - MemberService.java
 ```
   * 엔티티 클래스를 Q클래스를 만들어야 하므로 gardle 를 통해 clean -> compile java 거쳐야됨
-  * 스프링 부트 시작시 엔티티 클래스에 데이터베이스는 자동으로 생성(spring.jpa.hibernate.ddl-auto 옵션 참고)
+  * 스프링 부트 시작시 엔티티 클래스를 통해 테이블 자동 생성(spring.jpa.hibernate.ddl-auto 옵션 참고)
          
 
 ## 패키지 트리
