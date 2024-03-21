@@ -82,7 +82,7 @@ public class MemberService extends QuerydslRepositorySupport {
         LocalDateTime endDate = parseDateTime(searchCondition.get("endDate"));
 
         // 키워드에 따른 조건 추가
-        if (value1 != null) {
+        if (value1 != null || value2 != null) {
             addKeywordConditions(builder, value1, lc1, value2);
         }
         // 시작날짜와 종료날짜에 따른 조건 추가
