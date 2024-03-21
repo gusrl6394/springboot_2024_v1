@@ -127,6 +127,7 @@ PostMan
 
 ## 2) JPA + QueryDsl
 - JPA 를 통한 Member 데이터 생성
+![Member 생성](https://github.com/gusrl6394/springboot_2024_v1/assets/20663508/190553be-98c3-43c5-befd-69fd678451f2)
 ![Member 생성 DB](https://github.com/gusrl6394/springboot_2024_v1/assets/20663508/adffa0c8-2f5c-450b-a0cb-5ee418198de8)
 
 - QueryDsl 를 활용한 Member 데이터 검색 (다중 조건)
