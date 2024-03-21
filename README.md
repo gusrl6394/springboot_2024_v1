@@ -1,10 +1,12 @@
 환경변수
+```
 Oracle OpenJDK 17
 Gradle 8.6
 Spring boot 3.2.3
 Spring security 6.2.2
 jjwt 0.12.3
 Mariadb 10.11.2
+```
 
 개발자 툴
 Intellij IDEA
